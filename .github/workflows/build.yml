@@ -16,7 +16,7 @@ on:
         
 jobs:
   build:
-    if: github.actor == 'nalin745' # || github.actor == 'wstgbot'
+    if: github.actor == 'nalin745' || github.actor == 'thataj5'
     runs-on: ${{ github.event.inputs.runsOn }}
    
     steps: 
